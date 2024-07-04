@@ -18,7 +18,7 @@ function SignUp() {
 
     try {
       const response = await fetch(
-        "https://signupform-server-2.onrender.com/api/form/signup",
+        "https://signupform-server.onrender.com/api/form/signup",
         {
           method: "POST",
           headers: {
