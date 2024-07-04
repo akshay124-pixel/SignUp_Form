@@ -17,7 +17,7 @@ function SignUp() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:4000/api/form/signup", {
+      const response = await fetch("https://signupform-server-2.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
